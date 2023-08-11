@@ -15,6 +15,7 @@ namespace Microsoft.AspNetCore.Routing;
 /// <see cref="EndpointRouteBuilderExtensions.MapGroup(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, RoutePattern)"/>
 /// and to customize those endpoints using conventions.
 /// </summary>
+
 public sealed class RouteGroupBuilder : IEndpointRouteBuilder, IEndpointConventionBuilder
 {
     private readonly IEndpointRouteBuilder _outerEndpointRouteBuilder;
